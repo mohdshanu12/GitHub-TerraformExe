@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "ms-cool-batch8"
+    bucket = "jaislintfs3"
     key    = "../tfstate"
     region = "ap-south-1"
   }
